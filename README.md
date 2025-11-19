@@ -1,5 +1,4 @@
-Sentiment Bayes is a pocket-sized Naive Bayes lab that moonlights as a sentiment detective, clipping happy/angsty vibes with embarrassingly simple math.
+Sentiment Bayes is a quiet, compact companion that reads small slices of text, trusts steady Naive Bayes math, and gently shares whether the tone feels bright or heavy.
 
-- Ships with a ready-to-train Go classifier, CSV loader, evaluation mode, and a `/classify` HTTP endpoint so you can go from dataset to demo to deployment before your coffee cools.
-- Supports JSON snapshots to freeze brainy models in amber and revive them later without retraining.
-- Includes a playful demo dataset plus CLI flags for real-world corpora when you’re ready to graduate from toy drama to production-grade angst.
+- Go toolkit with training, CSV loading, evaluation, and a `/classify` HTTP endpoint so your dataset can flow straight into a working service.
+- JSON snapshots save trained models, and the bundled demo data plus CLI flags make it easy to plug in your own corpora whenever you want fresh voices.
